@@ -1,0 +1,426 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    overflow: auto;
+}
+
+/*전체 감싸기 */
+.wrap{
+    height: 100%;
+}
+
+/* navbar부분 관련 css */
+.header{
+    height: 12%;
+}
+#navbar{
+    height: 12%;
+
+    background-color: rgb(74,74,74);
+}
+#bar{
+    height: 100%;
+}
+#logoDiv{
+    height: 100%;
+}
+#menu{
+    width: 100%;
+}
+#imgLogo{
+    height: 100%;
+}
+#tt{
+    color: rgb(105,193,129);
+    font-size: 25px;
+    
+}
+
+
+
+/*  헤더 아래부분 부터 푸터 윗부분까지 Layout 선언하고 짜는게 좋을 듯 */
+#main{
+    height:100%;
+    
+}
+#main2{
+    height: 100%;
+}
+#content{
+    height:95%;
+    padding-top: 5%;
+}
+section{
+    height: 78%;
+    overflow: auto;
+}    
+/* footer 관련 css */
+
+.footer {
+   
+    width: 100%;
+    bottom: 0px;
+    height: 10%;
+    color: #aaa;
+     border-top: .05rem solid #e5e5e5; 
+}
+.foot{
+     text-align: center;
+}
+
+/* 메인페이지(홈화면)관련 css */
+.mainImg{
+    padding-top: 5%;
+    max-width: 100%;
+    object-fit: cover;
+}
+#recommend{
+    
+    color: red;
+}
+#recom{
+    padding-top: 5%;
+}
+
+/* about Us 관련 css */
+
+.logo{
+    height: 40%;
+}
+.info{
+    height: 70%;
+    padding-top: 20%;
+}
+#img1{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+#info2{
+    padding-top: 10%;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    
+}
+
+/* recommend 첫페이지 관련 화면 */
+#go{
+    color: red;
+}
+
+/* ------------------Login---------------------- */
+.login-wrap{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+#loginForm{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.id-wrap, .pw-wrap{
+    position: relative;
+    width: 230px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.loginBtn-wrap, .joinBtn-wrap{
+    width: 230px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+#id-input, #pw-input{
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 15px 5px 0px 8px;
+    margin-bottom: 5px;
+    color: #444444;
+    border: 1px solid rgb(105,193,129);
+    border-radius: 3px;
+    outline: 0;
+}
+
+#loginBtn,#joinBtn{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: rgb(105,193,129);
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#loginBtn:hover{
+    background-color: rgb(105,193,129);
+}
+
+.phTxt_id, .phTxt_pw{
+    position: absolute;
+    top: 50%; left: 10px;
+    transform: translate(0, -50%);
+    font-size: 16px;
+    color: #444444;
+    transition: 0.35s ease;
+    vertical-align: top;
+    user-select: none;
+    z-index: 10;
+    cursor: text;
+}
+/* --------------join---------------- */
+.name-wrap{
+    position: relative;
+    width: 230px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.join-wrap{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+#joinForm{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email-wrap{
+    position: relative;
+    width: 230px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#pw-re-input,#email-input,#name-input{
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 15px 5px 0px 8px;
+    margin-bottom: 5px;
+    color: #444444;
+    border: 1px solid rgb(105,193,129);
+    border-radius: 3px;
+    outline: 0;
+}
+#phTxt_id, #phTxt_pw, #phTxt_re_pw,#phTxt_email,#phTxt_name{
+    position: absolute;
+    top: 50%; left: 10px;
+    transform: translate(0, -50%);
+    font-size: 16px;
+    color: #444444;
+    transition: 0.35s ease;
+    vertical-align: top;
+    user-select: none;
+    z-index: 10;
+    cursor: text;
+}
+p{
+    font-size: 0.8em;
+    color:black;
+}
+
+/* input 페이지 */
+
+#input_form{
+    height: 100%;
+    overflow: auto;
+}
+#left{
+    height: 80%;
+}
+
+.plant_water{
+    height: 25%;
+}
+.plant_temperature{
+    height: 25%;
+}
+
+.plant_height{
+    height: 25%;
+}
+.plant_flower{
+    height: 25%;
+}
+
+#right{
+    height: 80%;
+}
+
+
+.plant_light{
+    height: 25%;
+    
+}
+.plant_width{
+    height: 25%;
+}
+.plant_toxicity{
+    height: 25%;
+}
+.plant_fruit{
+    height: 25%;
+}
+#plant_water{
+    
+    margin-left: 2%;
+}
+
+.water{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+
+}
+.ask{
+    height: 20%;
+}
+
+#plant_temperature{
+    width:100%;
+}
+.temperature{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+.height{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+
+}
+#plant_height{
+    margin-left: 2%;
+}
+.width{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+#plant_width{
+    margin-left: 2%;
+}
+.flower{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+#plant_flower{
+    margin-left: 2%;
+}
+.light{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+#plant_light{
+    margin-left: 2%;
+}
+.toxicity{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+#plant_toxicity{
+    margin-left: 2%;
+}
+.fruit{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+#plant_fruit{
+    margin-left: 2%;
+}
+
+.plant_name{
+    text-align: center;
+}
+.plnat_rank{
+    text-align: center;
+}
+.plant_image{
+    padding-top: 1%;
+    text-align: center;
+}
+.plant_name > a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.results_item{
+    display: none;
+
+}
+.results_item.active{
+    display: block;
+}
+
+#myform fieldset{
+    text-align: center;
+    /* display: inline-block;  */
+    direction: rtl;
+    border: 0; /* 필드셋 테두리 제거 */
+}
+#myform input[type=radio]{
+    display: none; /* 라디오박스 감춤 */
+}
+#myform label{
+    font-size: 5em; /* 이모지 크기 */
+    color: transparent; /* 기존 이모지 컬러 제거 */
+    text-shadow: 0 0 0 #f0f0f0; /* 새 이모지 색상 부여 */
+}
+#myform label:hover{
+    text-shadow: 0 0 0 rgb(105,193,129); /* 마우스 호버 */
+}
+#myform label:hover ~ label{
+    text-shadow: 0 0 0 rgb(105,193,129); /* 마우스 호버 뒤에오는 이모지들 */
+}
+#myform input[type=radio]:checked ~ label{
+    text-shadow: 0 0 0 rgb(105,193,129);; /* 마우스 클릭 체크 */
+}
+
+
+#myform fieldset legend{
+    text-align: center;
+}
+.infop{
+    word-break: keep-all;
+}
+
+
+
+
+#my.pagination > .active > a, 
+#my.pagination > .active > span, 
+#my.pagination > .active > a:hover, 
+#my.pagination > .active > span:hover, 
+#my.pagination > .active > a:focus, 
+#my.pagination > .active > span:focus {
+  background: rgb(25, 135, 84);
+  border-color:rgb(25, 135, 84);
+}
+.page-link{
+    color: rgb(25, 135, 84);
+
+}
